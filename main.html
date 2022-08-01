@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+
+    <section class="books-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th> title </th>
+                    <th> price </th>
+                    <th>action</th>
+                </tr>
+            </thead>
+            <tbody class="book-detail"></tbody>
+
+        </table>
+    </section>
+
+
+    <script src="js/services/utils.service.js"></script>
+    <script src="js/services/storage.services.js"></script>
+    <script src="js/services/book.service.js"></script>
+    <script src="js/books.controller.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+table {
+
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+table thead tr {
+    background-color: #626766;
+    color: #ffffff;
+    text-align: left;
+}
+
+table th td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:hover {
+    font-weight: bold;
+    color: #5f7371;
+}
+
+button {
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.read {
+    background-color: blue;
+}
+
+.update {
+    background-color: rgb(234, 189, 9);
+}
+
+.delete {
+    background-color: rgb(231, 63, 8);
+}
